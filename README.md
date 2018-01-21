@@ -1,7 +1,7 @@
-# html-css-mochup-exercise
+# Mock Up Excercise
 
-### Video Tutorial
+### HTML and CSS excercise designed by Bloc mentor Bill Tran
 
-Here is a video showing you how I use the Chrome Developer Tools to layout my HTML and CSS
+Link to Bill Tran's GitHub
 
-- [https://youtu.be/ttc83LIjTvQ](https://youtu.be/ttc83LIjTvQ)
+- https://github.com/accbjt
