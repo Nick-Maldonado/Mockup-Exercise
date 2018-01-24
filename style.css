@@ -76,7 +76,6 @@ table {
 .topbar li a {
   text-decoration: none;
   color: #8d8b98;
-
 }
 
 .topbar img {
@@ -86,3 +85,65 @@ table {
 .hero img{
   width: 100%;
 }
+
+.intro {
+  width: 100%;
+  background-color: #eff0f5;
+  height: 280px;
+}
+
+.intro img {
+  display: block;
+  padding-top: 71px;
+  margin: 0 auto;
+  width: 32px;
+}
+
+ h6 {
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  color: #4c4a57;
+  padding: 16px;
+}
+
+.intro p {
+  font-family: sans-serif;
+  font-size: 11px;
+  text-align: center;
+  color: #8d8b98;
+  padding-bottom: 8px;
+}
+
+.row1 .left1 {
+  width: 67%;
+  float: left
+}
+
+.row1 .left1 .bike-1 {
+  width: 100%;
+}
+
+.row1 .left1 .bike {
+  position: absolute;
+}
+
+.row1 .right1 {
+  width: 33%;
+  float: left;
+}
+
+.row1 .right1 .seat {
+  width: 100%
+}
+
+.fillerwords {
+  font-family: sans-serif;
+  font-size: 10px;
+  text-align: center;
+  color: #8d8b98;
+  padding-bottom: 8px;
+}
+
+.r1text1
