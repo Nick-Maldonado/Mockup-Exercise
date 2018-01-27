@@ -48,10 +48,20 @@ table {
 }
 /* Stylesheet below this */
 
+body {
+  background-color: rgb(214, 214, 214);
+}
+
+.all {
+	max-width: 960px;
+	min-width: 960px;
+	margin: auto;
+}
+
 .topbar {
   position: absolute;
   margin: 20px 0;
-  width: 100%;
+  width: 960px;
   text-align: center;
 }
 
@@ -99,7 +109,7 @@ table {
   width: 32px;
 }
 
- h6 {
+ .intro h6 {
   font-family: sans-serif;
   font-size: 14px;
   text-align: center;
@@ -115,10 +125,9 @@ table {
   color: #8d8b98;
   padding-bottom: 8px;
 }
-
 .row1 .left1 {
   width: 67%;
-  float: left
+  float: left;
 }
 
 .row1 .left1 .bike-1 {
@@ -126,24 +135,56 @@ table {
 }
 
 .row1 .left1 .bike {
-  position: absolute;
+	position: absolute;
+  padding: 145px 283px;
+	width: 77px;
+}
+
+.row1 .left1 .bicycle-company-logo {
+	position: absolute;
+	padding: 193px 283px;
+	width: 77px;
 }
 
 .row1 .right1 {
   width: 33%;
   float: left;
+	height: 100%;
 }
 
 .row1 .right1 .seat {
   width: 100%
 }
 
-.fillerwords {
-  font-family: sans-serif;
-  font-size: 10px;
-  text-align: center;
-  color: #8d8b98;
-  padding-bottom: 8px;
+.textBox {
+	background-color: #f3f5fe;
+	align-items: center;
+	margin: 0;
 }
 
-.r1text1
+.textBox p {
+	font-family: sans-serif;
+  font-size: 10px;
+  text-align: justify;
+  color: #8d8b98;
+	width: 242px;
+	line-height: 2;
+	position: relative;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+.textBox .frame-icon {
+	margin: 0 auto;
+	width: 27px;
+  padding-left: 44.5%;
+}
+
+.textBox h6 {
+ font-family: sans-serif;
+ font-size: 14px;
+ text-align: center;
+ font-weight: bold;
+ color: #4c4a57;
+ padding: 4px;
+}
