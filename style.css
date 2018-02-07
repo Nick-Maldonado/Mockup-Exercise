@@ -254,7 +254,7 @@ body {
  padding: 4px;
 }
 
-/* ROW 3 */
+/* --------- ROW 3 -------- */
 
 .row3 {
 	width: 100%;
@@ -358,4 +358,65 @@ body {
 .tweet-tabs {
   color: #b9b9b9;
   padding: 60px 0 0
+}
+
+/* ------------ BOTTOM ------------ */
+
+.bottom {
+	width: 100%;
+}
+
+.bottom .left {
+	width: 33.333%;
+	float: left;
+}
+
+.bottom-image-1 {
+	width: 50%;
+	float: left;
+}
+
+.bottom-image-5 {
+	width: 100%;
+}
+
+.bottom .middle {
+	width: 33.333%;
+	float: left;
+}
+
+.bottom-middle-images {
+	width: 50%;
+	float: left;
+}
+
+.bottom .right {
+	width: 33.333%;
+	float: right;
+}
+
+.bottom-right-images {
+	width: 100%;
+}
+
+#logoContainer4 {
+	position: absolute;
+	width: 33.333%;
+	min-width: 316.727272728px;
+	max-width: 475.090909091px;
+	text-align: center;
+}
+
+#logoContainer4 img {
+	width: 10%;
+	margin-top: 20%;
+}
+
+#logoContainer4 p {
+	color: white;
+	font-family: sans-serif;
+	font-size: 9;
+	font-weight: bold;
+	margin-top: 8px;
+  letter-spacing: 1.5;
 }
