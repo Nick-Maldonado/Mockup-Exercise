@@ -90,6 +90,11 @@ body {
   color: #8d8b98;
 }
 
+.topbar li a:hover {
+	color: #86cdb4;
+	font-style: italic;
+}
+
 .topbar img {
   width: 55px;
 }
@@ -320,7 +325,12 @@ body {
 
 .social .twitter-icon {
 	width: 22px;
-	margin: 70px 0 10px 0
+	margin: 70px 0 10px 0;
+}
+
+.social .twitter-icon:hover {
+	width: 25px;
+	margin: 67px 0 10px 0;
 }
 
 .social .tweet-by {
@@ -364,6 +374,7 @@ body {
 
 .bottom {
 	width: 100%;
+	display: flex;
 }
 
 .bottom .left {
@@ -412,6 +423,10 @@ body {
 	margin-top: 20%;
 }
 
+#logoContainer4 img:hover {
+	width: 12%;
+}
+
 #logoContainer4 p {
 	color: white;
 	font-family: sans-serif;
@@ -419,4 +434,100 @@ body {
 	font-weight: bold;
 	margin-top: 8px;
   letter-spacing: 1.5;
+}
+
+
+/* ---------- DISCOVER ----------- */
+
+.discover {
+	background-color: #282f35;
+	width: 100%;
+	padding: 60px 0;
+	position: static;
+	text-align: center;
+}
+
+.discover a {
+	text-decoration: none;
+	width: 180px;
+}
+
+.discover-button {
+	background-color: #282f35;
+  color: #fcffff;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 8px;
+  letter-spacing: 1.5;
+  border: solid;
+  border-width: thin;
+  width: 180px;
+  padding: 10px 40px;
+  margin: auto;
+}
+
+.discover-button:hover {
+	background-color: #474f56;
+	color: #86cdb4;
+}
+
+/* ------------ SIGN UP --------------- */
+
+.sign-up{
+	background-color: #f3f5fe;
+  height: 165px;
+  text-align: center;
+  padding: 70px 0px;
+}
+
+.sign-up img {
+	width: 60px;
+}
+
+.sign-up p {
+	font-family: sans-serif;
+  font-size: 14px;
+	font-style: italic;
+  text-align: center;
+  color: #8d8b98;
+	margin: 20px 0;
+}
+
+.sign-up #email {
+	font-family: sans-serif;
+  font-size: 14px;
+	font-style: italic;
+	text-align: left;
+	height: 45px;
+	width: 255px;
+	padding: 10px;
+}
+
+#email:focus {
+	outline-width: thick;
+	outline-color: #86cdb4;
+}
+
+::placeholder {
+	font-family: sans-serif;
+  font-size: 14px;
+	font-style: italic;
+  text-align: left;
+  color: #8d8b98;
+}
+
+#go-button {
+	color: #fcffff;
+	font-family: sans-serif;
+	background-color: #86cdb4;
+	border: 2px solid #86cdb4;
+	height: 45px;
+	width: 80px;
+}
+
+#go-button:hover {
+	color: #86cdb4;
+	background-color: #fcffff;
+	font-weight: bold;
 }
